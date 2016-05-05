@@ -1,0 +1,10 @@
+<?php
+	$conect=pg_pconncet("host=localhost user=postgres password='ubv123$'dbname=estacionamiento port=5432");
+	
+	if($conect==1){
+	echo"Coneccion establecida con bd estacionamiento";
+	}else{
+	echo"Error de conceccion";
+	}
+	echo"no paso nada";
+?>
